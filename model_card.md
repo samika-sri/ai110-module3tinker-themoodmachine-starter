@@ -12,7 +12,7 @@ You may complete this model card for whichever version you used, or compare both
 **Model type:**  
 Describe whether you used the rule based model, the ML model, or both.  
 Example: “I used the rule based model only” or “I compared both models.”
-
+    
 **Intended purpose:**  
 What is this model trying to do?  
 Example: classify short text messages as moods like positive, negative, neutral, or mixed.
@@ -51,8 +51,7 @@ Examples:
 
 - How positive and negative words affect score  
 - Negation rules you added  
-- Weighted words  
-- Emoji handling  
+- Weighted words    
 - Threshold decisions for labels
 
 **Strengths of this approach:**  
