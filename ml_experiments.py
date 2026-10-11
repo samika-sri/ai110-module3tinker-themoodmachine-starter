@@ -8,7 +8,7 @@ TRUE_LABELS that you use with the rule based model.
 """
 
 from typing import List, Tuple
-
+import sklearn
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
