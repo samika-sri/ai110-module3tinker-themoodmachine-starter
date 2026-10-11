@@ -71,16 +71,14 @@ class MoodAnalyzer:
 
         raw_tokens = []
         for piece in cleaned.split():
-          if piece in EMOTICONS:            # keep emoticons whole
-            raw_tokens.append(piece)
-            continue
-          word = piece.strip(string.punctuation)   # "great!!" -> "great"
-        if word:
-          raw_tokens.append(word)
+            if piece in EMOTICONS:            # keep emoticons whole
+                raw_tokens.append(piece)
+                continue
+            word = piece.strip(string.punctuation)   # "great!!" -> "great"
+            if word:
+                raw_tokens.append(word)
 
-        tokens = cleaned.split()
-
-        return tokens
+        return raw_tokens
 
     # ---------------------------------------------------------------------
     # Scoring logic
